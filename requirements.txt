@@ -1,0 +1,8 @@
+setuptools>=67.7.1
+nltk>=3.7
+numpy>=1.24.3
+tqdm>=4.64.1
+Flask>=2.2.2
+gensim>=4.1.2
+scikit_learn>=1.0.2
+torch>=2.0.0

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width initial-scale=1" />
+    <title>Neural Machine Translation</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <link href="../static/site.css" rel="stylesheet" type="text/css"/>
+    <script src="../static/input.js" type="text/javascript" async></script>
+</head>
+<body>
+    <div class="wrapper" id="heading">
+        <h1>Neural Machine Translation</h1>
+        <p>Translate modern English into Shakespearean English</p>
+    </div>
+    <div class="wrapper">
+        <h3>Modern English</h3>
+        <form method="POST">
+            <textarea name="modern" id="modern" maxlength="100" placeholder="Insert modern English here..."autofocus></textarea>
+            <div id="the-count">
+                <span id="current">0</span>
+                <span id="maximum">/ 25</span>
+            </div>
+            <button type="submit" class="btn btn-secondary">Translate</button>
+        </form>
+        
+    </div>
+    <div class="wrapper">
+        <h3>Shakespearean English</h3>
+        <textarea name="olde" id="olde" placeholder="Click above to translate!" readonly>
+            {{sample_output}}
+        </textarea>
+    </div>
+</body>
+</html>
