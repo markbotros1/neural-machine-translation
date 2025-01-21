@@ -15,18 +15,18 @@ Running the project
 1. Clone repo
 2. Create and activate virtual environment
 ```
-$cd path/to/NeuralMachineTranslation
+cd path/to/NeuralMachineTranslation
 
-$python -m venv project-env
-$source project-env/bin/activate
+python -m venv project-env
+source project-env/bin/activate
 ```
 3. Install requirements
 ```
-$pip install -r requirements.txt
+pip install -r requirements.txt
 ```
 4. From command line, run app using following
 ```
-$python src/app.py
+python src/app.py
 ```
 5. Paste the generated localhost server url into browser
 ```
